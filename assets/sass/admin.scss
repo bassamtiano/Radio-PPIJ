@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "roboto";
+    src: url(../../fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(../../fonts/RobotoCondensed-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+	font-family: roboto;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    // font-size: 10pt;
+}
+
+
+.admin { 
+	padding: 0; margin: 0; 
+
+	.header {
+
+		background: white;
+
+		.header-title {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			
+
+			.logo {
+				float: left; height: 45px; margin-right: 10px;	
+			}
+			.logo-title {
+				font-size: 40px;
+			}
+
+			.u-logedin {
+				width: 100%;
+				float: right;
+				img {
+					height: 30px; width: 30px; border-radius: 15px; margin-right: 10px; float: right;
+				}
+				.name {
+					float: right;
+					margin-right: 10px;
+					font-size: 20px;
+				}
+			}
+
+			.u-onair {
+				float: left;
+				width: 100%;
+
+				.judul-siaran {
+					width: 80%;
+					float: left;
+					img {
+						float: left;
+					}
+					b {
+						float: left;
+						padding: 0 10px;
+						margin: 0;
+
+					}
+				}
+				.status-siaran {
+					width: 20%;
+					float: left;
+					text-align: right;
+					padding: 6px 0;
+				}
+			}
+		}
+
+		.header-menu {
+			display: table;
+			table-layout: fixed;
+    		margin:auto;
+
+    		width: 100%;
+
+    		.header-menu-item {
+    			display: table-cell;
+    			text-align: center;
+    			color:white;
+				background: #2D7FB5;
+				text-decoration: none;
+				padding:5px;
+
+    			width:100%;
+
+    			&.active {
+	    			background: #212A39;	
+	    		}
+    		}
+
+    		.header-menu-item:hover {
+				background: #212A39;
+    		}
+
+
+		}
+
+		.header-submenu {
+			display: table;
+			table-layout: fixed;
+    		margin:auto;
+    		font-size: 10pt;
+    		width: 100%;
+
+    		.header-submenu-item {
+    			display: table-cell;
+    			text-align: center;
+    			color:white;
+				background: #212A39;
+				text-decoration: none;
+				padding:5px;
+
+    			width:100%;
+    		}
+
+    		.active {
+    			border-bottom: solid #CEEBF2 5px;
+    			padding-bottom: 0;
+    		}
+
+    		.header-submenu-item:hover {
+				border-bottom: solid #CEEBF2 5px;
+				padding-bottom: 0;
+    		}
+		}
+	}
+
+	.content {
+		
+	}
+}
+

@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "roboto";
+  src: url(../../fonts/RobotoCondensed-Regular.ttf); }
+@font-face {
+  font-family: "roboto";
+  src: url(../../fonts/RobotoCondensed-Bold.ttf);
+  font-weight: bold; }
+body {
+  font-family: roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.admin {
+  padding: 0;
+  margin: 0; }
+  .admin .header {
+    background: white; }
+    .admin .header .header-title {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .admin .header .header-title .logo {
+        float: left;
+        height: 45px;
+        margin-right: 10px; }
+      .admin .header .header-title .logo-title {
+        font-size: 40px; }
+      .admin .header .header-title .u-logedin {
+        width: 100%;
+        float: right; }
+        .admin .header .header-title .u-logedin img {
+          height: 30px;
+          width: 30px;
+          border-radius: 15px;
+          margin-right: 10px;
+          float: right; }
+        .admin .header .header-title .u-logedin .name {
+          float: right;
+          margin-right: 10px;
+          font-size: 20px; }
+      .admin .header .header-title .u-onair {
+        float: left;
+        width: 100%; }
+        .admin .header .header-title .u-onair .judul-siaran {
+          width: 80%;
+          float: left; }
+          .admin .header .header-title .u-onair .judul-siaran img {
+            float: left; }
+          .admin .header .header-title .u-onair .judul-siaran b {
+            float: left;
+            padding: 0 10px;
+            margin: 0; }
+        .admin .header .header-title .u-onair .status-siaran {
+          width: 20%;
+          float: left;
+          text-align: right;
+          padding: 6px 0; }
+    .admin .header .header-menu {
+      display: table;
+      table-layout: fixed;
+      margin: auto;
+      width: 100%; }
+      .admin .header .header-menu .header-menu-item {
+        display: table-cell;
+        text-align: center;
+        color: white;
+        background: #2D7FB5;
+        text-decoration: none;
+        padding: 5px;
+        width: 100%; }
+        .admin .header .header-menu .header-menu-item.active {
+          background: #212A39; }
+      .admin .header .header-menu .header-menu-item:hover {
+        background: #212A39; }
+    .admin .header .header-submenu {
+      display: table;
+      table-layout: fixed;
+      margin: auto;
+      font-size: 10pt;
+      width: 100%; }
+      .admin .header .header-submenu .header-submenu-item {
+        display: table-cell;
+        text-align: center;
+        color: white;
+        background: #212A39;
+        text-decoration: none;
+        padding: 5px;
+        width: 100%; }
+      .admin .header .header-submenu .active {
+        border-bottom: solid #CEEBF2 5px;
+        padding-bottom: 0; }
+      .admin .header .header-submenu .header-submenu-item:hover {
+        border-bottom: solid #CEEBF2 5px;
+        padding-bottom: 0; }
+
+/*# sourceMappingURL=admin.css.map */
